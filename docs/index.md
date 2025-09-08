@@ -5,7 +5,10 @@ layout: home
 hero:
   name: "플레이봇 문서"
   text: "비공식"
-  tagline: 공식 문서의 불편함을 줄이기 위해 만들어졌습니다.
+  tagline: 문서를 보면서 플레이봇으로 코딩하는 우리를 위해.
+  image:
+    src: /playbot.png
+    alt: PlayBot Logo
   actions:
     - theme: brand
       text: 함수 래퍼런스

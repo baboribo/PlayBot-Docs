@@ -2,17 +2,14 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  // 🌐 사이트 메타데이터
   title: "플레이봇 비공식 문서",
-  description: "공식 문서의 불편함을 줄이기 위해 커뮤니티가 함께 만드는 문서입니다.",
+  description: "문서를 보면서 플레이봇으로 코딩하는 우리를 위해.",
   lang: 'ko-KR', // 한국어 설정
 
   // 🎨 테마 설정
   themeConfig: {
-    // 🏠 로고 (선택 사항 — 로고 파일이 있다면)
-    // logo: '/logo.svg',
+    logo: '/playbot.png',
 
-    // 🧭 내비게이션 바 (상단)
     nav: [
       { text: '홈', link: '/' },
       { text: '함수 레퍼런스', link: '/functions/basics/move' },
@@ -52,8 +49,9 @@ export default defineConfig({
                   { text: 'popup()', link: '/functions/basics/console/popup' },
                   { text: 'say()', link: '/functions/basics/console/say' },
                 ]
-              }
-              // 나머지 기본 함수들 추가
+              },
+              { text: 'repeat()', link: '/functions/basics/repeat' },
+              { text: '[미완료] get_ramdom()', link: '/functions/basics/get-ramdom' },
             ]
           },
           {

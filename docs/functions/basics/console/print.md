@@ -29,6 +29,7 @@ print( string text )
 
 ## 사용 예시
 ### 기본적인 출력
+문자열과 변수를 출력할 수 있습니다.
 ```javascript
 print("Hello World!") // 문자열 출력
 print(date) // 변수 출력
