@@ -14,8 +14,8 @@ hero:
       text: 함수 래퍼런스
       link: /functions/basics/move
     - theme: alt
-      text: 기여 가이드
-      link: /sync
+      text: 문서 기여 가이드
+      link: /contribution
 
 features:
   - title: 편안한 인터페이스

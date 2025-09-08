@@ -13,7 +13,7 @@ export default defineConfig({
     nav: [
       { text: '홈', link: '/' },
       { text: '함수 레퍼런스', link: '/functions/basics/move' },
-      { text: '기여하기', link: 'https://github.com/baboribo/playbot-docs' }
+      { text: '기여하기', link: 'https://github.com/baboribo/PlayBot-Docs/tree/main/docs' }
     ],
 
     footer: {
@@ -27,7 +27,7 @@ export default defineConfig({
         text: '🚀 시작하기',
         items: [
           { text: '문서 소개', link: '/' },
-          { text: '기여 가이드', link: '/sync' }
+          { text: '문서 기여 가이드', link: '/contribution' }
         ]
       },
       {
@@ -84,7 +84,7 @@ export default defineConfig({
 
     // ✏️ 수정 링크 (GitHub 편집 버튼)
     editLink: {
-      pattern: 'https://github.com/baboribo/playbot-docs/edit/main/docs/:path',
+      pattern: 'https://github.com/baboribo/PlayBot-Docs/edit/main/docs/:path',
       text: '이 페이지 수정하기'
     },
 
@@ -102,7 +102,7 @@ export default defineConfig({
     socialLinks: [
       {
         icon: 'github',
-        link: 'https://github.com/your-username/playbot-docs',
+        link: 'https://github.com/baboribo/PlayBot-Docs',
         ariaLabel: 'GitHub 저장소'
       }
     ],
