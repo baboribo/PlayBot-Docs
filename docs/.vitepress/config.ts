@@ -30,7 +30,7 @@ export default defineConfig({
         text: '🚀 시작하기',
         items: [
           { text: '문서 소개', link: '/' },
-          { text: '기여 가이드', link: '/contributing' }
+          { text: '기여 가이드', link: '/sync' }
         ]
       },
       {
@@ -86,7 +86,7 @@ export default defineConfig({
 
     // ✏️ 수정 링크 (GitHub 편집 버튼)
     editLink: {
-      pattern: 'https://github.com/your-username/playbot-docs/edit/main/docs/:path',
+      pattern: 'https://github.com/baboribo/playbot-docs/edit/main/docs/:path',
       text: '이 페이지 수정하기'
     },
 

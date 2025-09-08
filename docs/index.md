@@ -12,7 +12,7 @@ hero:
       link: /functions/basics/move
     - theme: alt
       text: 기여 가이드
-      link: /contributing
+      link: /sync
 
 features:
   - title: 편안한 인터페이스
