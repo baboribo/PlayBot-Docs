@@ -13,7 +13,7 @@ export default defineConfig({
     nav: [
       { text: '홈', link: '/' },
       { text: '함수 레퍼런스', link: '/functions/basics/move' },
-      { text: '기여하기', link: 'https://github.com/your-username/playbot-docs' }
+      { text: '기여하기', link: 'https://github.com/baboribo/playbot-docs' }
     ],
 
     footer: {
