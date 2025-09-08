@@ -1,0 +1,148 @@
+// .vitepress/config.js
+import { defineConfig } from 'vitepress'
+
+export default defineConfig({
+  // 🌐 사이트 메타데이터
+  title: "플레이봇 비공식 문서",
+  description: "공식 문서의 불편함을 줄이기 위해 커뮤니티가 함께 만드는 문서입니다.",
+  lang: 'ko-KR', // 한국어 설정
+
+  // 🎨 테마 설정
+  themeConfig: {
+    // 🏠 로고 (선택 사항 — 로고 파일이 있다면)
+    // logo: '/logo.svg',
+
+    // 🧭 내비게이션 바 (상단)
+    nav: [
+      { text: '홈', link: '/' },
+      { text: '함수 레퍼런스', link: '/functions/basics/move' },
+      { text: '기여하기', link: 'https://github.com/your-username/playbot-docs' }
+    ],
+
+    footer: {
+      message: '<a href="https://playbot.spaceii.kr/portal/portal_reference.php">플레이봇 공식 문서</a>',
+      copyright: '<a href="https://x.com/machidoro">마치도로(a.k.a. 바보리보)</a>가 만들었어요.'
+    },
+
+    // 📚 사이드바 (왼쪽 메뉴)
+    sidebar: [
+      {
+        text: '🚀 시작하기',
+        items: [
+          { text: '문서 소개', link: '/' },
+          { text: '기여 가이드', link: '/contributing' }
+        ]
+      },
+      {
+        text: '🧩 함수 레퍼런스',
+        collapsed: false, // 기본 펼침
+        items: [
+          {
+            text: '기본 함수',
+            collapsed: false,
+            items: [
+              { text: 'move()', link: '/functions/basics/move' },
+              { text: 'turn_left()', link: '/functions/basics/turn-left' },
+              { text: 'turn_off()', link: '/functions/basics/turn-off' },
+              {
+                text: '출력',
+                collapsed: false,
+                items: [
+                  { text: 'print()', link: '/functions/basics/console/print' },
+                  { text: 'popup()', link: '/functions/basics/console/popup' },
+                  { text: 'say()', link: '/functions/basics/console/say' },
+                ]
+              }
+              // 나머지 기본 함수들 추가
+            ]
+          },
+          {
+            text: '고급 함수',
+            collapsed: true,
+            items: [
+              { text: 'front_is_clear()', link: '/functions/advanced/front-is-clear' },
+              { text: 'get_beeper()', link: '/functions/advanced/get-beeper' }
+              // 고급 함수들 추가
+            ]
+          },
+          {
+            text: '수학 함수',
+            collapsed: true,
+            items: [
+              { text: 'random()', link: '/functions/math/random' },
+              { text: 'sqrt()', link: '/functions/math/sqrt' }
+            ]
+          }
+        ]
+      },
+      // {
+      //   text: '❓ FAQ & 팁',
+      //   items: [
+      //     { text: '자주 묻는 질문', link: '/faq' },
+      //     { text: '초보자를 위한 팁', link: '/tips' }
+      //   ]
+      // }
+    ],
+
+    // ✏️ 수정 링크 (GitHub 편집 버튼)
+    editLink: {
+      pattern: 'https://github.com/your-username/playbot-docs/edit/main/docs/:path',
+      text: '이 페이지 수정하기'
+    },
+
+    // 🕒 마지막 수정일 표시
+    lastUpdated: {
+      text: '최종 수정일',
+      formatOptions: {
+        dateStyle: 'long',
+        timeStyle: 'short',
+        timeZone: 'Asia/Seoul'
+      }
+    },
+
+    // 🌐 소셜 링크
+    socialLinks: [
+      {
+        icon: 'github',
+        link: 'https://github.com/your-username/playbot-docs',
+        ariaLabel: 'GitHub 저장소'
+      }
+    ],
+
+    // 🔍 검색 기능 (로컬 검색)
+    search: {
+      provider: 'local'
+    },
+
+    // 📄 문서 하단 이전/다음 버튼
+    docFooter: {
+      prev: '이전 함수',
+      next: '다음 함수'
+    },
+
+    // 🌓 다크 모드 설정
+    darkModeSwitchLabel: '테마',
+    lightModeSwitchTitle: '밝은 테마로 전환',
+    darkModeSwitchTitle: '어두운 테마로 전환',
+
+    // 📱 모바일 메뉴 라벨
+    sidebarMenuLabel: '메뉴',
+    returnToTopLabel: '맨 위로'
+  },
+
+  // ⚙️ 빌드 설정
+  base: '/', // GitHub Pages라면 '/repo-name/'로 변경
+
+  // 🛠 Markdown 설정 (선택 사항)
+  markdown: {
+    lineNumbers: true, // 코드 블록에 줄번호 표시
+    headers: {
+      level: [2, 3, 4] // 목차에 포함할 헤더 레벨
+    }
+  },
+
+  // 🧩 빌드 후크 (선택 사항 — sitemap 등)
+  buildEnd: async (siteConfig) => {
+    // 추후 sitemap 생성, 검색 인덱스 생성 등에 활용 가능
+  }
+})
