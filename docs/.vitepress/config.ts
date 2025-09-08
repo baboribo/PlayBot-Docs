@@ -129,7 +129,7 @@ export default defineConfig({
   },
 
   // ⚙️ 빌드 설정
-  base: '/playbot-docs/', // GitHub Pages라면 '/repo-name/'로 변경
+  base: '/PlayBot-Docs/', // GitHub Pages라면 '/repo-name/'로 변경
 
   // 🛠 Markdown 설정 (선택 사항)
   markdown: {
