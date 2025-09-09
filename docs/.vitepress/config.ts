@@ -13,7 +13,7 @@ export default defineConfig({
     nav: [
       { text: '홈', link: '/' },
       { text: '함수 레퍼런스', link: '/functions/basics/move' },
-      { text: '기여하기', link: 'https://github.com/baboribo/PlayBot-Docs/tree/main/docs' }
+      { text: '기여하기', link: '/contribution' }
     ],
 
     footer: {
@@ -27,7 +27,7 @@ export default defineConfig({
         text: '🚀 시작하기',
         items: [
           { text: '문서 소개', link: '/' },
-          { text: '문서 기여 가이드', link: '/contribution' }
+          { text: '문서 기여 방법', link: '/contribution' }
         ]
       },
       {
@@ -114,8 +114,8 @@ export default defineConfig({
 
     // 📄 문서 하단 이전/다음 버튼
     docFooter: {
-      prev: '이전 함수',
-      next: '다음 함수'
+      prev: '이전 페이지',
+      next: '다음 페이지'
     },
 
     // 🌓 다크 모드 설정
