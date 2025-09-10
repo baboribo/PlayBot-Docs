@@ -1,12 +1,12 @@
 ---
 title: get_ramdom()
-description: 지정된 값 중에서 랜덤으로 하나의 값을 정해주는 함수
+titleTemplate: 지정된 값 중에서 랜덤으로 하나의 값을 정해주는 함수
 editLink: true
 ---
 <Badge type="info" text="함수" /><Badge type="tip" text="기본" />
 
 # {{ $frontmatter.title }}
-{{ $frontmatter.description }}
+{{ $frontmatter.titleTemplate }}
 ## 목차
 [[toc]]
 ***

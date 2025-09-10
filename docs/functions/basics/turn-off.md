@@ -1,12 +1,12 @@
 ---
 title: turn_off()
-description: 현재 프로그램을 실행 중단하기
+titleTemplate: 현재 프로그램을 실행 중단하기
 editLink: true
 ---
 <Badge type="info" text="함수" /><Badge type="tip" text="기본" />
 
 # {{ $frontmatter.title }}
-{{ $frontmatter.description }}
+{{ $frontmatter.titleTemplate }}
 ## 목차
 [[toc]]
 ***

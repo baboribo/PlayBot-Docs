@@ -1,12 +1,12 @@
 ---
 title: repeat()
-description: 지정된 횟수만큼 함수 반복하기
+titleTemplate: 지정된 횟수만큼 함수 반복하기
 editLink: true
 ---
 <Badge type="info" text="함수" /><Badge type="tip" text="기본" />
 
 # {{ $frontmatter.title }}
-{{ $frontmatter.description }}
+{{ $frontmatter.titleTemplate }}
 ## 목차
 [[toc]]
 ***

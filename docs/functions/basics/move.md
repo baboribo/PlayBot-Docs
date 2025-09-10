@@ -1,12 +1,12 @@
 ---
 title: move()
-description: 앞으로 한 칸 이동하기
+titleTemplate: 앞으로 한 칸 이동하기
 editLink: true
 ---
 <Badge type="info" text="함수" /><Badge type="tip" text="기본" />
 
 # {{ $frontmatter.title }}
-{{ $frontmatter.description }}
+{{ $frontmatter.titleTemplate }}
 ## 목차
 [[toc]]
 ***

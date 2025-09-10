@@ -1,12 +1,12 @@
 ---
 title: popup()
-description: 내용이 담긴 팝업 창을 띄우기
+titleTemplate: 내용이 담긴 팝업 창을 띄우기
 editLink: true
 ---
 <Badge type="info" text="함수" /><Badge type="tip" text="기본" /> - <Badge type="info" text="출력" />
 
 # {{ $frontmatter.title }}
-{{ $frontmatter.description }}
+{{ $frontmatter.titleTemplate }}
 ## 목차
 [[toc]]
 ***

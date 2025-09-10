@@ -1,12 +1,12 @@
 ---
 title: print()
-description: 콘솔(출력 영역)에 내용을 출력하기
+titleTemplate: 콘솔(출력 영역)에 내용을 출력하기
 editLink: true
 ---
 <Badge type="info" text="함수" /><Badge type="tip" text="기본" /> - <Badge type="info" text="출력" />
 
 # {{ $frontmatter.title }}
-{{ $frontmatter.description }}
+{{ $frontmatter.titleTemplate }}
 ## 목차
 [[toc]]
 ***
