@@ -17,8 +17,8 @@ export default defineConfig({
     ],
 
     footer: {
-      message: '<a href="https://playbot.spaceii.kr/portal/portal_reference.php">플레이봇 공식 문서</a>',
-      copyright: '<a href="https://x.com/machidoro">마치도로(a.k.a. 바보리보)</a>가 만들었어요.'
+      message: '<a href="https://playbot.spaceii.kr/portal/portal_reference.php">플레이봇 명령어 사전(공식)</a>',
+      copyright: '<a href="https://x.com/machidoro">마치도로</a><a href="https://github.com/baboribo">(a.k.a. 바보리보)</a>가 만들었어요.'
     },
 
     // 📚 사이드바 (왼쪽 메뉴)
@@ -58,8 +58,8 @@ export default defineConfig({
             text: '고급 함수',
             collapsed: true,
             items: [
-              { text: 'front_is_clear()', link: '/functions/advanced/front-is-clear' },
-              { text: 'get_beeper()', link: '/functions/advanced/get-beeper' }
+              { text: 'null', link: '/functions/advanced/front-is-clear' },
+              { text: 'null', link: '/functions/advanced/get-beeper' }
               // 고급 함수들 추가
             ]
           },
@@ -67,8 +67,8 @@ export default defineConfig({
             text: '수학 함수',
             collapsed: true,
             items: [
-              { text: 'random()', link: '/functions/math/random' },
-              { text: 'sqrt()', link: '/functions/math/sqrt' }
+              { text: 'null', link: '/functions/math/random' },
+              { text: 'null', link: '/functions/math/sqrt' }
             ]
           }
         ]
