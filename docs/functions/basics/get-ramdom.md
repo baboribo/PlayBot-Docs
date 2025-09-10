@@ -7,6 +7,8 @@ editLink: true
 
 # {{ $frontmatter.title }}
 {{ $frontmatter.description }}
+## 목차
+[[toc]]
 ***
 ```javascript
 int get_random( int num1, int num2 )

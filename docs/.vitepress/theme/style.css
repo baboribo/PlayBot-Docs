@@ -157,7 +157,8 @@ http://scripts.sil.org/OFL
 
 .content h2 {
   border-top: none !important;
-  padding-bottom: 0 !important;
+  margin-top: 0 !important;
+  padding: 1 !important;
 }
 
 
