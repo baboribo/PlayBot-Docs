@@ -7,8 +7,6 @@ editLink: true
 
 # {{ $frontmatter.title }}
 {{ $frontmatter.titleTemplate }}
-## 목차
-[[toc]]
 ***
 ```javascript
 repeat(" string function ", int count )
@@ -17,7 +15,7 @@ repeat(" string function ", int count )
 
 ***
 ## 매개변수
-### **문자열 함수 ( string function )**
+### **문자열 함수 ```( string function )```**
 반복적으로 실행할 함수를 지정합니다.
 ### **휫수 ```( int count )```**
 지정한 함수를 반복 실행할 휫수 값

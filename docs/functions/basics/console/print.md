@@ -7,8 +7,6 @@ editLink: true
 
 # {{ $frontmatter.title }}
 {{ $frontmatter.titleTemplate }}
-## 목차
-[[toc]]
 ***
 ```javascript
 print( string text )

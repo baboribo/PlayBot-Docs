@@ -31,7 +31,7 @@ export default defineConfig({
         ]
       },
       {
-        text: '🧩 함수 레퍼런스',
+        text: '함수',
         collapsed: false, // 기본 펼침
         items: [
           {
@@ -51,26 +51,23 @@ export default defineConfig({
                 ]
               },
               { text: 'repeat()', link: '/functions/basics/repeat' },
-              { text: '[미완료] get_ramdom()', link: '/functions/basics/get-ramdom' },
+              { text: 'get_random()', link: '/functions/basics/get-random' },
             ]
           },
           {
-            text: '고급 함수',
+            text: '물건',
             collapsed: true,
             items: [
-              { text: 'null', link: '/functions/advanced/front-is-clear' },
-              { text: 'null', link: '/functions/advanced/get-beeper' }
-              // 고급 함수들 추가
+              { text: 'pick_object()', link: '/functions/object/pick-object' },
+              { text: 'put_object()', link: '/functions/object/put-object' },
+              { text: 'what_object()', link: '/functions/object/what-object' },
+              { text: 'count_object()', link: '/functions/object/count-object' },
+              { text: 'on_object()', link: '/functions/object/on-object' },
+              { text: 'kind_object()', link: '/functions/object/kind-object' },
+              { text: 'have_object()', link: '/functions/object/have-object' },
+              { text: 'own_object()', link: '/functions/object/own-object' },
             ]
           },
-          {
-            text: '수학 함수',
-            collapsed: true,
-            items: [
-              { text: 'null', link: '/functions/math/random' },
-              { text: 'null', link: '/functions/math/sqrt' }
-            ]
-          }
         ]
       },
       // {

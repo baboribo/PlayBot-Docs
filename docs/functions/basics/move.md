@@ -7,8 +7,6 @@ editLink: true
 
 # {{ $frontmatter.title }}
 {{ $frontmatter.titleTemplate }}
-## 목차
-[[toc]]
 ***
 
 ```javascript
@@ -17,6 +15,7 @@ move()
 
 {{ $frontmatter.title }}는 **현재 방향에서 한 칸 앞으로 이동**하는 함수 입니다.\
 로봇 바라보는 방향에서 이동하려는 칸에 **장애물**이 있는 경우, **런타임 오류**(RobotCrashError)가 발생합니다.
+
 ***
 ## 매개변수
 ### **없음 ```( void )```**
