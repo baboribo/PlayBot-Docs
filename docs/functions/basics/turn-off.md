@@ -5,8 +5,8 @@ editLink: true
 ---
 <Badge type="info" text="함수" /><Badge type="tip" text="기본" />
 
-# turn_off()
-현재 프로그램을 실행 중단하기
+# {{ $frontmatter.title }}
+{{ $frontmatter.description }}
 ***
 ```javascript
 turn_off()

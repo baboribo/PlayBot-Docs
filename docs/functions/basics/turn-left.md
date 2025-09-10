@@ -1,12 +1,12 @@
 ---
-title: move()
+title: turn_left()
 description: 왼쪽으로 90도 회전하기
 editLink: true
 ---
 <Badge type="info" text="함수" /><Badge type="tip" text="기본" />
 
-# turn_left()
-왼쪽으로 90도 회전하기
+# {{ $frontmatter.title }}
+{{ $frontmatter.description }}
 ***
 
 ```javascript

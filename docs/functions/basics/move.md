@@ -5,15 +5,15 @@ editLink: true
 ---
 <Badge type="info" text="함수" /><Badge type="tip" text="기본" />
 
-# move()
-앞으로 한 칸 이동하기
+# {{ $frontmatter.title }}
+{{ $frontmatter.description }}
 ***
 
 ```javascript
 move()
 ```
 
-move()는 **현재 방향에서 한 칸 앞으로 이동**하는 함수 입니다.\
+{{ $frontmatter.title }}는 **현재 방향에서 한 칸 앞으로 이동**하는 함수 입니다.\
 로봇 바라보는 방향에서 이동하려는 칸에 **장애물**이 있는 경우, **런타임 오류**(RobotCrashError)가 발생합니다.
 ***
 ## 매개변수

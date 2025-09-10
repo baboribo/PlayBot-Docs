@@ -5,8 +5,8 @@ editLink: true
 ---
 <Badge type="info" text="함수" /><Badge type="tip" text="기본" /> - <Badge type="info" text="출력" />
 
-# say()
-로봇이 말풍선으로 내용을 출력하도록 하기
+# {{ $frontmatter.title }}
+{{ $frontmatter.description }}
 ***
 ```javascript
 say( string text )

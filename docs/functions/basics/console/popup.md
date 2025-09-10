@@ -5,8 +5,8 @@ editLink: true
 ---
 <Badge type="info" text="함수" /><Badge type="tip" text="기본" /> - <Badge type="info" text="출력" />
 
-# popup()
-내용이 담긴 팝업 창을 띄우기
+# {{ $frontmatter.title }}
+{{ $frontmatter.description }}
 ***
 ```javascript
 popup( string text )

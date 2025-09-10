@@ -5,8 +5,8 @@ editLink: true
 ---
 <Badge type="info" text="함수" /><Badge type="tip" text="기본" /> - <Badge type="info" text="출력" />
 
-# print()
-콘솔(출력 영역)에 내용을 출력하기
+# {{ $frontmatter.title }}
+{{ $frontmatter.description }}
 ***
 ```javascript
 print( string text )

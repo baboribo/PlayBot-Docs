@@ -5,8 +5,8 @@ editLink: true
 ---
 <Badge type="info" text="함수" /><Badge type="tip" text="기본" />
 
-# repeat()
-지정된 횟수만큼 함수 반복하기
+# {{ $frontmatter.title }}
+{{ $frontmatter.description }}
 ***
 ```javascript
 repeat(" string function ", int count )
