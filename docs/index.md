@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "플레이봇 문서"
   text: "비공식"
-  tagline: 미완성 # 문서를 보면서 플레이봇으로 코딩하는 우리를 위해.
+  tagline: 미완성
   image:
     src: /playbot.png
     alt: PlayBot Logo
