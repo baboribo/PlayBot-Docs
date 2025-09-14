@@ -18,7 +18,7 @@ export default defineConfig({
 
     footer: {
       message: '<a href="https://playbot.spaceii.kr/portal/portal_reference.php">플레이봇 명령어 사전(공식)</a>',
-      copyright: '<a href="https://x.com/machidoro">마치도로</a><a href="https://github.com/baboribo">(a.k.a. 바보리보)</a>가 만들었어요.'
+      copyright: '<a href="https://me.yume.place">마치도로</a><a href="https://github.com/baboribo">(a.k.a. 바보리보)</a>가 만들었어요.'
     },
 
     // 📚 사이드바 (왼쪽 메뉴)
@@ -70,6 +70,14 @@ export default defineConfig({
           },
         ]
       },
+        {
+            text: '외부 링크',
+            items: [
+                { text: '플레이봇 메인 사이트', link: 'https://playbot.spaceii.kr/' },
+                { text: '플레이봇 명령어 사전', link: 'https://playbot.spaceii.kr/portal/portal_reference.php' },
+                { text: 'GitHub 리포지토리', link: 'https://github.com/baboribo/PlayBot-Docs' },
+            ]
+        }
       // {
       //   text: '❓ FAQ & 팁',
       //   items: [
