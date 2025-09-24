@@ -112,7 +112,7 @@ PlayBot-Docs/
 
 ## 📜 라이선스
 
-이 프로젝트는 BSD 3-Clause License를 따릅니다.
+
 
 ## 👨‍💻 개발자
 
