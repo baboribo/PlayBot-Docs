@@ -62,10 +62,10 @@ export default defineConfig({
               { text: 'put_object()', link: '/functions/object/put-object' },
               { text: 'what_object()', link: '/functions/object/what-object' },
               { text: 'count_object()', link: '/functions/object/count-object' },
-              { text: 'on_object()', link: '/functions/object/on-object' },
-              { text: 'kind_object()', link: '/functions/object/kind-object' },
-              { text: 'have_object()', link: '/functions/object/have-object' },
-              { text: 'own_object()', link: '/functions/object/own-object' },
+              // { text: 'on_object()', link: '/functions/object/on-object' },
+              // { text: 'kind_object()', link: '/functions/object/kind-object' },
+              // { text: 'have_object()', link: '/functions/object/have-object' },
+              // { text: 'own_object()', link: '/functions/object/own-object' },
             ]
           },
         ]
