@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: "플레이봇 비공식 문서",
-  description: "문서를 보면서 플레이봇으로 코딩하는 우리를 위해.",
+  description: "...",
   lang: 'ko-KR', // 한국어 설정
 
   // 🎨 테마 설정
@@ -18,13 +18,13 @@ export default defineConfig({
 
     footer: {
       message: '<a href="https://playbot.spaceii.kr/portal/portal_reference.php">플레이봇 명령어 사전(공식)</a>',
-      copyright: '<a href="https://me.yume.place">마치도로</a><a href="https://github.com/baboribo">(a.k.a. 바보리보)</a>가 만들었어요.'
+      copyright: '<a href="https://yoru.yume.place">m_ny29*</a><a href="https://github.com/baboribo">(a.k.a. 바보리보)</a>가 만들었어요.'
     },
 
     // 📚 사이드바 (왼쪽 메뉴)
     sidebar: [
       {
-        text: '🚀 시작하기',
+        text: '시작하기',
         items: [
           { text: '문서 소개', link: '/' },
           { text: '문서 기여 방법', link: '/contribution' }
@@ -75,7 +75,7 @@ export default defineConfig({
             items: [
                 { text: '플레이봇 메인 사이트', link: 'https://playbot.spaceii.kr/' },
                 { text: '플레이봇 명령어 사전', link: 'https://playbot.spaceii.kr/portal/portal_reference.php' },
-                { text: 'GitHub 리포지토리', link: 'https://github.com/baboribo/PlayBot-Docs' },
+                { text: 'GitHub 리포지토리', link: 'https://github.com/yume-place/PlayBot-Docs' },
             ]
         }
       // {
@@ -89,7 +89,7 @@ export default defineConfig({
 
     // ✏️ 수정 링크 (GitHub 편집 버튼)
     editLink: {
-      pattern: 'https://github.com/baboribo/PlayBot-Docs/edit/main/docs/:path',
+      pattern: 'https://github.com/yume-place/PlayBot-Docs/edit/main/docs/:path',
       text: '이 페이지 수정하기'
     },
 
@@ -107,7 +107,7 @@ export default defineConfig({
     socialLinks: [
       {
         icon: 'github',
-        link: 'https://github.com/baboribo/PlayBot-Docs',
+        link: 'https://github.com/yume-place/PlayBot-Docs',
         ariaLabel: 'GitHub 저장소'
       }
     ],
